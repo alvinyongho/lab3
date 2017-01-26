@@ -11,8 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text(selectRandStr());
-
-		$("#testjs").text("Please wait...");
+		$("#testjs").text(selectRandStr());
 		$(".jumbotron p").addClass("active");
 
 
